@@ -1,0 +1,6 @@
+function matout=diffu_coeff(Xcoords,Ycoords)
+%computing diffusion coefficient
+matout=(1+Xcoords.^2).*(20+Ycoords.^2);
+
+
+end
