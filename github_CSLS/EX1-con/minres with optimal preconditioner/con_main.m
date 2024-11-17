@@ -40,7 +40,7 @@ for kkk=1:length(slevels)
     eigs_P4=((h^(-2)*eigs'+alpha1.*ones(Ms,1)).^2+beta1^2.*ones(Ms,1)).^(1/2);
     eigs_P4=[eigs_P4;eigs_P4];
     %% rhs
-    u_exact=randn(Ms,1)+randn(Ms,1)*i;
+    u_exact=ones(Ms,1)+ones(Ms,1)*i;
     Nt=1;
     dt=1;
     Mx=M;
